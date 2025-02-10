@@ -28,7 +28,7 @@ def generate_qr_code(data, file_name):
 
 if __name__ == "__main__":
     # Desired URL is currently set to lml.live with baropen filter for this week. 
-    qr_data = "https://lml.live/?dateRange=thisWeek&venues=68524262-c33c-450c-856f-3a7f436fa441"
-    output_file_name = "LML_BAROPEN_DIGITAL_ASSET"
+    qr_data = "https://lml.live/gigs/0fb6e55d-9688-4536-9e9c-2013da111b72"
+    output_file_name = "Testing"
 
     generate_qr_code(qr_data, output_file_name)
