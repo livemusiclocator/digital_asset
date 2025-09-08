@@ -29,7 +29,7 @@ def generate_qr_code(data, file_name):
 if __name__ == "__main__":
     # Desired URL is currently set to lml.live with baropen filter for this week. 
     #template http://localhost:3000/ubid
-    qr_data = "insert link here"
+    qr_data = "https://app-a2efljur7q-uc.a.run.app/68524262-c33c-450c-856f-3a7f436fa441"
     output_file_name = "Testing"
 
     generate_qr_code(qr_data, output_file_name)
